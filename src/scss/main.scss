@@ -1,5 +1,6 @@
 //Импорт общих стилей
 @import "./components/common";
+@import "./components/mixins";
 
 //Импорт шрифтов
 @import "./components/fonts";
@@ -10,4 +11,4 @@
 //Импорт компонентов для страниц
 @import "./components/header";
 @import "./components/footer";
-@import "./components/gallery";
+@import "./components/gallery"; 
