@@ -8,8 +8,7 @@ const
    openModal = gallerySection.getElementsByClassName('gallery__btn_open-modal')[0],
    bigImg = gallerySection.getElementsByClassName('gallery__img-big_js')[0],
    modalBigImg = gallerySection.getElementsByClassName('gallery__modal-big-img_js')[0];
-
-
+ 
 // создать локальное хранилище с key 'gallery' если его ещё нет
 if (!localStorage.getItem("gallery")) {
    let galleryDefault = [
